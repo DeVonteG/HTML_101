@@ -1,0 +1,122 @@
+/*Global*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    }
+
+/*header*/
+header{
+    background-image:url(https://learn.g2.com/hubfs/What_is_Information_Technology.jpg);
+    background-position: center right;
+    background-size: cover;
+    border-top-left-radius:80px 80px ;
+    border-top-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+}
+header h1{
+    font-family: 'Roboto', sans-serif;
+    font-size:100px;
+    color:#ffcc00;
+    text-align:center;
+    text-transform:uppercase;
+    text-shadow: 4px 4px white;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ffcc00;
+}
+/*utilities*/
+.container1{
+    text-align-last: left;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+main.container2{
+    text-align:justify;
+    margin-top: 100px 150px auto 100px;
+}
+
+
+/*menu*/
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    color: #ffcc00;
+}
+nav.menu{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-right: 15px;
+}
+div.social-media{
+    display:inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+/*index main*/
+div.services{
+    background-color: #5c5656;
+    /*t r b l*/
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    padding:20px;
+}
+div.services p{
+    line-height: 2;
+}
+div.services-icon{/*this is the container of the icon*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+}
+div.services-icon i{
+    font-size: 25px;
+}
+/*projects*/
+ul,ol.projects{
+    background-color: #5c5656;
+    width: 20%;
+    padding: 20px;
+}
+ul,li, ol li.projects{
+    border-left: 5px solid black;
+    padding: 10px;
+    background-color: #a2a2a2;
+    margin: 10px;
+}
+ul li:hover, ol li:hover{
+    background-color: #ffcc00;
+    font-weight: 700;
+}
+h5{
+    font-size: 25px;
+}
+
+ol li.projects{
+    color: #434343;
+}
