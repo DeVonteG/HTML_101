@@ -1,0 +1,95 @@
+/* global */
+:root{
+    --primary:#ffcc00;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/* utilities */
+/* menu */
+nav.menu{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+nav.menu img{
+    height: 50px;
+    padding-left: 20px;
+}
+.link-glass,.link-menu,.link-renew,.logo{
+    display: none;
+}
+.link-login{
+    text-transform: uppercase;
+    font-weight:800;
+    letter-spacing: 3px;
+    color: black;
+}
+.link-login:hover{
+    color: grey;
+}
+.link-subs{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+.link-subs:hover{
+    /* sweep to right */
+    display: inline-block;
+    position: relative;
+    background-color:var(--primary);
+    color:black;
+    transition:0.3s;
+    transition-property: all;
+}
+.link-angles{
+    color: black;
+}
+.link-angles:hover{
+    color: grey;
+}
+nav.menu a:last-of-type{
+    margin-right: 30px;
+}
+/* header */
+header{
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+span{
+    background-color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #ffcc00;
+}
+span:hover{
+    /* sweep to top */
+    background-color:var(--primary);
+    color: black;
+    transition: 0.3s ;
+    transform-origin: bottom;
+}
