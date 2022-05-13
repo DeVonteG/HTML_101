@@ -1,91 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/e754277b0c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/mystyle.css">
-    <title>National Geographic</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e754277b0c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/mystyle.css">
+        <title> My National Geographic</title>
     </head>
     <body>
         <nav class="menu">
             <img class="logo" src="img/ng-logo-2fl.webp" alt="logo">
             <img class="frame" src="img/ng-border.png" alt="border">
-            <a href="#" class="link-login">LOGIN</a>
-            <a href="#" class="link-glass"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <!-- goes to pubs menu -->
-            <a href="#" class="link-renew">RENEW</a>
-            <!--add the Subscribe button with hover yellow icon-->
-            <a href="#" class="link-subs">SUBSCRIBE</a>
-            <a href="#" class="link-menu">MENU</a>
-            <a href="#" class="link-angles"><i class="fa-solid fa-angles-down"></i>
-            </a>
+             <div class="links-container">
+                <a href="#" class="link-login">LOGIN</a>
+                <a href="#" class="link-glass"><i class="fa-solid fa-magnifying-glass"></i></a>
+                 <!-- goes to pubs menu -->
+                <a href="#" class="link-renew">RENEW</a>
+                 <!--add the Subscribe button with hover yellow icon-->
+                <a href="#" class="link-subs">SUBSCRIBE</a>
+                <a href="#" class="link-menu">MENU</a>
+                <a href="#" class="link-angles"><i class="fa-solid fa-angles-down"></i></a>
+            </div>
         </nav>
-    <header>
-        <h1>LATEST STORIES</h1>
-        <p><span>Subscribe</span> for full access to read stories from National Geographic.</p>
-    </header>
-    <main>
-        <section>
-            <img src="img/Parkinson.webp" alt="scientist holding test">
-            <div>
-                <h3>SCIENCE</h3>
-                <p>New method delivers life-saving drigs to the brain-using sound...</p>
-                <h4><i class="fa-solid fa-bars"></i>  READ</h4>
+        <header>
+            <h1>LATEST STORIES</h1>
+            <p><span>Subscribe</span> for full access to read stories from National Geographic.</p>
+            <!-- border below -->
+            <div class="line"></div>
+            <hr class="solid">
+        </header>
+        <main class="main-container">
+            <div class="news-container">
+                <section class="main-news">
+                    <div class="main-news-img">
+                        <img src="img/Parkinson.webp" alt="scientist holding test">
+                    </div>
+                    <div class="main-news-text">
+                        <h3>SCIENCE</h3>
+                        <p class="title"> New method delivers life-saving drugs to the brain-using sound...</p>
+                        <h4 class="read-btn"><i class="fa-solid fa-bars"></i>  READ</h4>
+                    </div>
+                </section>    <!--end of main news section-->
+                <div class="secondary-news-container">
+                    <section class="secondary-news">
+                        <div class="secondary-news-img">
+                            <img src="img/Cinco-Mayo.jpg" alt="Cindo de Mayo">
+                        </div>
+                        <div class="secondary-news-text">
+                            <h3> HISTORY MAGAZINE</h3>
+                            <p>The victorious origins of Cinco de Mayo</p>
+                            <h4 class="read-btn"><i class="fa-solid fa-bars"></i>READ</h4>
+                        </div>
+                    </section>
+                    <section class="secondary-news2">
+                    <div class="secondary-news-img2">
+                        <img src="img/veggie.webp" alt="deformed carrot">
+                    </div>
+                    <div class="secondary-news-text2">
+                        <h3>SCIENCE</h3>
+                        <p>Fruits and vegetable are less nutritious than they used to be</p>
+                        <h4 class="read-btn"><i class="fa-solid fa-bars"></i>READ</h4>
+                    </div>
+                    </section>
+                </div>
             </div>
-        </section>
-        <section>
-            <img src="img/Cinco-Mayo.jpg" alt="Battle">
-            <div>
-                <h3>HISTORY MAGAZINE</h3>
-                <p>The victorious origins of Cinco de Mayo</p>
-                <h4><!--add the icon bar to left of "read"--><i class="fa-solid fa-bars"></i>  
-                    READ</h4>
-            </div>
-        </section>
-        <section>
-            <img src="img/veggie.webp" alt="deformed carrot">
-            <div>
-                <h3>SCIENCE</h3>
-                <p>Fruits and vegetable are less nutritious than they used to be</p>
-                <h4><!--add the icon to left of "read"--><i class="fa-solid fa-bars"></i>
-                    READ</h4>
-            </div>
-        </section>
-        <section>
-            <h2>TODAY'S PICKS</h2>
-            <div>
-                <h3>ANIMALS</h3>
-                <img src="img/vaquita.webp" alt="whale">
-                <p>Vaquita porpoises may still recover if illegal fishing ends</p>
-            </div>
-            <div>
-                <h3>MAGAZINE</h3> <h3>PLANET POSSIBLE</h3>
-                <img src="img/veggie garden.jpg" alt="veggie garden">
-                <p>4 eco-friendly ways to keep pests out of your yard</p>
-            </div>
-            <div>
-                <h3>MAGAZINE</h3>
-                <img src="img/lynx.jpg" alt="lynx cat">
-                <p>How this feline became the biggest comeback in cat conservation</p>
-            </div>
-            <div>
-                <h3>HISTORY MAGAZINE</h3>
-                <img src="img/Wong Kim Ark.jpg" alt="Wong">
-                <p>This American's Supreme Court fight defined U.S. citizenship</p>
-            </div>
-            <div>
-                <h3>TRAVEL</h3>  <h3>WORLD HERITAGE</h3>
-                <img src="img/city of jeddah.webp" alt="jeddah">
-                <p>To see Soudi Arabia, start with this 'magical' gateway to Mecca</p>
-            </div>
-            <div>
-                <h3>ENVIRONMENT</h3>
-                <img src="img/pine needles.jpg" alt="pine tree">
-                <p>Forests as 'carbon offsets'? Climate change has other plans.</p>
-            </div>
-        </section>
-    </main>
-</body>
+            <section class="todays-pick">
+                <div class="sub-header">
+                    <h2>TODAY'S PICKS</h2>
+                </div>
+                <div class="todays-picks-item">
+                        <img src="img/vaquita.webp" alt="whale">
+                    <div>
+                        <h3>ANIMALS</h3>
+                        <p>Vaquita porpoises may still recover if illegal fishing ends</p>
+                    </div>
+                </div>
+                <div class="todays-picks-item">
+                        <img src="img/veggie garden.jpg" alt="veggie garden">
+                        <div>
+                            <h3>MAGAZINE</h3> <h3>PLANET POSSIBLE</h3>
+                            <p>4 eco-friendly ways to keep pests out of your yard</p>
+                        </div>
+                </div>
+                <div class="todays-picks-item">
+                    <img src="img/lynx.jpg" alt="lynx cat">
+                    <div>
+                        <h3>MAGAZINE</h3>
+                        <p>How this feline became the biggest comeback in cat conservation</p>
+                    </div>
+                </div>
+                <div class="todays-picks-item">
+                        <img src="img/Wong Kim Ark.jpg" alt="Wong">
+                    <div>
+                        <h3>HISTORY MAGAZINE</h3>
+                        <p>This American's Supreme Court fight defined U.S. citizenship</p>
+                    </div>    
+                </div>
+                <div class="todays-picks-item">
+                    <img src="img/city of jeddah.webp" alt="jeddah">
+                    <div>
+                        <h3>TRAVEL</h3><h3>WORLD HERITAGE</h3>
+                        <p>To see Saudi Arabia, start with this 'magical' gateway to Mecca</p>
+                    </div>
+                </div>
+                <div class="todays-picks-item">
+                        <img src="img/pine needles.jpg" alt="pine tree">
+                    <div>
+                        <h3>ENVIRONMENT</h3>
+                        <p>Forests as 'carbon offsets'? Climate change has other plans.</p>
+                    </div>    
+                </div>
+            </section>
+        </main>
+    </body>
 </html>

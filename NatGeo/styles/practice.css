@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #dedede;
+    height: 400px;
+}
+.flex-element{
+    border-left: 10px solid #ffcc00 ;
+    background-color: green;
+    text-align: center;
+    color: lawngreen;
+    padding: 10px;
+    margin-left: 50px ;
+    flex-basis: 200px; /*width(flex width)*/
+}
